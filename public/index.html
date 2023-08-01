@@ -39,7 +39,7 @@
         const $MENSAJES = document.querySelector("#misMensajes")
 
     
-        const socket = io(`https://react-socket-servers-pedro.onrender.com/`);
+        const socket = io(`http://localhost:8080`);
 
         $FORMULARIO.addEventListener("submit", ev =>{
             ev.preventDefault()
